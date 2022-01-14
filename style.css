@@ -19,8 +19,8 @@ a:hover {
 /* header */
 
 header {
-  position: fixed;
-  width: 90%;
+  /* position: fixed; */
+  /* width: 90%; */
   z-index: 1;
 }
 
@@ -119,9 +119,10 @@ header {
   bottom: -28px;
 }
 
+/* ON - OFF the User drop text in box ------------------------- ON/OFF */
 .header-user-dropdown-box {
   position: relative;
-  /* display: none; */
+  display: none;
 }
 .header-user-dropdown-box::after {
   text-align: center;
@@ -135,7 +136,9 @@ header {
   bottom: -54px;
 }
 
+/* ON - OFF the Cart  integer in bubble ------------------------- ON/OFF  BUBBLES */
 .bubble-cart-border {
+  /* display: none; */
   position: absolute;
   border: 1px solid #b19971;
   background-color: #b19971;
@@ -160,6 +163,7 @@ header {
   bottom: -28px;
 }
 
+/* ON - OFF the Bag drop text in box ------------------------- ON/OFF */
 .header-bag-dropdown-box {
   position: relative;
   display: none;
@@ -177,7 +181,9 @@ header {
   bottom: -54px;
 }
 
+/* ON - OFF the Heart  integer in bubble ------------------------- ON/OFF  BUBBLES */
 .bubble-heart-border {
+  /* display: none; */
   position: absolute;
   border: 1px solid #b19971;
   background-color: #b19971;
@@ -194,7 +200,6 @@ header {
   z-index: 1;
 }
 
-
 .header-heart-dropdown-box::before {
   content: url("images/assets/cart-arrow.png");
   position: absolute;
@@ -203,6 +208,7 @@ header {
   bottom: -28px;
 }
 
+/* ON - OFF the Heart drop text in box ------------------------- ON/OFF */
 .header-heart-dropdown-box {
   position: relative;
   display: none;
@@ -238,16 +244,11 @@ header {
 }
 
 /* WOMEN */
+/* ON - OFF the Women dropdown box  ------------------------- ON/OFF */
 .hidden-women-article {
-
-  /* display: none; */
-  display: flex;
+  display: none;
+  /* display: flex; */
   justify-content: space-evenly;
-}
-
-.hidden-women-ul > li {
-  margin-right: 20px;
-  margin-top: 7px;
 }
 
 .women-title-ul-article {
@@ -273,6 +274,7 @@ h3.discounts-title-ul-article-title {
 }
 
 .discounts-ul {
+  padding: 0;
   margin-top: 10px;
   list-style: none;
 }
@@ -287,36 +289,88 @@ h3.discounts-title-ul-article-title {
 
 .women-ul {
   margin-top: 10px;
-  /* margin-left: 5px; */
   display: flex;
-    list-style: none;
-    padding: 0;
-    font-size: 18px;
-    /* width: 150px; */
-    height: 320px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-  /* display: flex;
-  justify-content: space-evenly;
   list-style: none;
   padding: 0;
-  font-size: 18px; */
+  font-size: 18px;
+  height: 320px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 /* WOMEN */
 
 /* MEN */
+/* ON - OFF the Men dropdown box  ------------------------- ON/OFF */
 .hidden-men-article {
-  box-shadow: 0 10px 15px -10px rgb(0 0 0 / 20%);
   display: none;
+  /* display: flex; */
+  justify-content: space-evenly;
 }
-.hidden-men-ul {
+
+.men-title-ul-article {
+  width: 303px;
+}
+
+h3.men-title-ul-article-title {
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 0.1rem solid black;
+  margin-bottom: 0;
+}
+
+.men-ul > li {
+  margin-top: 5px;
+}
+
+.men-ul {
+  margin-top: 10px;
   display: flex;
   list-style: none;
-  justify-content: space-evenly;
   padding: 0;
+  font-size: 18px;
+  height: 320px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 /* MEN */
+
+/* CHILDREN */
+/* ON - OFF the Children dropdown box  ------------------------- ON/OFF */
+.hidden-children-article {
+  display: none;
+  /* display: flex; */
+  justify-content: space-evenly;
+}
+
+.children-title-ul-article {
+  width: 303px;
+}
+
+h3.children-title-ul-article-title {
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 0.1rem solid black;
+  margin-bottom: 0;
+}
+
+.children-ul > li {
+  margin-top: 5px;
+}
+
+.children-ul {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  height: 320px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+/* CHILDREN */
 
 /* HIDDEN LISTS */
