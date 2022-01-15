@@ -373,4 +373,84 @@ h3.children-title-ul-article-title {
 }
 /* CHILDREN */
 
+/* SHOES */
+/* ON - OFF the Shoes dropdown box  ------------------------- ON/OFF */
+.hidden-shoes-article {
+  display: none;
+  /* display: flex; */
+  justify-content: space-evenly;
+}
+
+.shoes-title-ul-article {
+  width: 303px;
+}
+
+h3.shoes-title-ul-article-title {
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 0.1rem solid black;
+  margin-bottom: 0;
+}
+
+.shoes-ul > li {
+  margin-top: 5px;
+}
+
+.shoes-ul {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  height: 320px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.shoes-ul > li:first-child > a:first-child ,.shoes-ul > li:last-child > a:first-child {
+  line-height: 25px;
+}
+/* SHOES */
+
+/* ACCESORIES */
+/* ON - OFF the Accessories dropdown box  ------------------------- ON/OFF */
+.hidden-accessories-article {
+  display: none;
+  /* display: flex; */
+  justify-content: space-evenly;
+}
+
+.accessories-title-ul-article {
+  width: 303px;
+}
+
+h3.accessories-title-ul-article-title {
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 0.1rem solid black;
+  margin-bottom: 0;
+}
+
+.accessories-ul > li {
+  margin-top: 5px;
+}
+
+.accessories-ul {
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  height: 320px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.accessories-ul > li:first-child > a:first-child ,.accessories-ul > li:last-child > a:first-child {
+  line-height: 25px;
+}
+/* ACCESORIES */
+
 /* HIDDEN LISTS */
