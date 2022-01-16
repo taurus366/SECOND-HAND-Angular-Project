@@ -1,0 +1,9 @@
+.slogan-img-view {
+    width: 100%;
+}
+
+.slogan-img-view > img {
+    width: 100%;
+    height: 530px;
+    /* object-fit: cover; */
+}
