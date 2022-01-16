@@ -1,8 +1,26 @@
 /* GLOBAL */
+
+.no-padding {
+ padding: 0; 
+}
+
+.no-margin {
+  margin: 0;
+}
 body {
-  max-width: 90%;
-  margin: auto;
-  height: 1000px;
+  /* max-width: 90%; */
+  /* margin: auto; */
+  height: 2000px;
+}
+
+header {
+    margin: auto;
+    max-width: 90%;
+}
+
+.max-with90 {
+    max-width: 90%;
+    margin: auto;
 }
 
 a {
