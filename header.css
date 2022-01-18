@@ -1,4 +1,7 @@
 /* GLOBAL */
+* {
+  box-sizing: border-box;
+}
 
 .no-padding {
  padding: 0; 
