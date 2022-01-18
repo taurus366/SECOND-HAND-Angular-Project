@@ -8,9 +8,11 @@
   margin: 0;
 }
 body {
+  width: 99.92%;
+  margin: 0;
   /* max-width: 90%; */
   /* margin: auto; */
-  height: 2000px;
+  /* height: 3000px; */
 }
 
 header {
