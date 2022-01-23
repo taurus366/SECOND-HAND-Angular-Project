@@ -271,7 +271,7 @@ main {
 /* HIDDEN LISTS */
 
 .hidden-section {
-  box-shadow: -20px 20px 15px -10px rgb(0 0 0 / 20%);
+  box-shadow: 0px 20px 20px 12px rgb(0 0 0 / 20%);
   position: fixed;
   z-index: 1;
   background-color: white;

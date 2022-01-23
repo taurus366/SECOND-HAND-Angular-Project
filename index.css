@@ -1,3 +1,4 @@
+/* DISCOUNTS SECTION */
 .index-slogan-img-view {
   width: 100%;
 }
@@ -37,6 +38,9 @@ p.index-text-box-text {
   text-align: center;
   font-weight: 800;
 }
+/* DISCOUNTS SECTION */
+
+/* CHARGE CARD */
 
 .charge-section-title {
   text-align: center;
@@ -46,7 +50,6 @@ p.index-text-box-text {
   font-weight: 700;
 }
 
-/* CHARGE CARD */
 .charge-card {
   border: 1px solid rgba(0, 0, 0, 0.055);
   /* width: 20%; */
@@ -132,6 +135,7 @@ p.index-text-box-text {
 }
 /* CHARGE CARD */
 
+/* BRAND CARD */
 .popular-brands {
   margin-top: 100px;
   background-color: #8080801c;
@@ -145,8 +149,6 @@ p.popular-brands-title-p {
   font-size: 30px;
   font-weight: 700;
 }
-
-/* BRAND CARD */
 
 .popular-brands-title-brands {
   max-width: 90%;
@@ -277,14 +279,15 @@ footer {
 
 .popup-window-login-logo {
   text-align: center;
-  background-color: #B38B45;
+  background-color: #b38b45;
 }
 .popup-window-login-logo > img {
   width: 30%;
 }
 
 .popup-login,
-.popup-register {
+.popup-register,
+.popup-forgot-password {
   font-weight: 500;
   font-size: 22px;
   padding: 10px;
@@ -292,6 +295,7 @@ footer {
 
 .popup-active-btn {
   border-bottom: 2px solid #b38e4d;
+  color: #b38b45;
 }
 
 .popup-windows-login-register-nav {
@@ -307,17 +311,16 @@ footer {
 }
 
 .popup-window-login-form-text,
-.popup-window-register-form-text {
+.popup-window-register-form-text,
+.popup-window-forgot-password-form-text {
   text-align: center;
   font-size: 20px;
-}
-
-.popup-window-login-form-text {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .popup-window-login-form,
-.popup-window-register-form {
+.popup-window-register-form,
+.popup-forgot-password-form {
   width: 90%;
   margin: auto;
   /* display: none; */
@@ -329,9 +332,11 @@ footer {
   width: 100%;
 }
 
-#submit-login , #submit-register {
+#submit-login,
+#submit-register,
+#submit-confirm {
   width: 50%;
-  background-color: #B38B45;
+  background-color: #b38b45;
   color: white;
   cursor: pointer;
 }
@@ -340,6 +345,7 @@ footer {
 #password,
 #submit-register,
 #submit-login,
+#submit-confirm,
 #repeatPassword,
 #firstName,
 #thirdName {
@@ -355,50 +361,58 @@ footer {
 }
 
 .login-form-forgot-password > a > p {
-    float: right;
+  float: right;
 }
 
 /* REGISTER >>>> */
 
 .popup-window-register-form-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .popup-window-register-form-names {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .popup-window-register-form-text > p {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .popup-window-register-form-text > p:first-child {
-margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .popup-window-register-form-text > p:last-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .popup-window-register-form-gender > label {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #male-gender {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
-#male-gender , #female-gender {
-    transform: scale(1.5);
-    accent-color: #B38B45;
-    margin-bottom: 20px;
-
+#male-gender,
+#female-gender {
+  transform: scale(1.5);
+  accent-color: #b38b45;
+  margin-bottom: 20px;
 }
 
 /* POPUP WINDOW --- LOGIN AND REGISTER */
 
+/* POPUP WINDOW --- FORGOT PASSWORD */
 
+.popup-window-forgot-password-form-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* POPUP WINDOW --- FORGOT PASSWORD */
