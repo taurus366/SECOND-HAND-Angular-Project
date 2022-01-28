@@ -348,7 +348,20 @@ footer {
 #submit-confirm,
 #repeatPassword,
 #firstName,
-#thirdName {
+#lastName,
+#phone {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.second-hand-btn {
+  width: 200px;
+  height: 30px;
+  background-color: #b38b45;
+  color: white;
+  cursor: pointer;
   margin-bottom: 20px;
   border-radius: 5px;
   padding: 5px;

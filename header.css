@@ -18,10 +18,7 @@ body {
   /* height: 3000px; */
 }
 
-header {
-    margin: auto;
-    max-width: 90%;
-}
+
 
 .max-with90 {
     max-width: 90%;
@@ -63,11 +60,12 @@ header {
 
 .header-section {
   top: 0;
-   position: fixed; 
-   background-color: white;
-   width: 90%; 
-  display: flex;
-  align-items: center;
+    /* left: 0; */
+    position: fixed;
+    background-color: white;
+    width: 1350px;
+    display: flex;
+    align-items: center;
 }
 main {
   margin-top: 170px;
@@ -275,7 +273,7 @@ main {
   position: fixed;
   z-index: 1;
   background-color: white;
-  width: 90%;
+  width: 1372px;
   top: 164px;
 
 }
@@ -491,3 +489,32 @@ h3.accessories-title-ul-article-title {
 /* ACCESORIES */
 
 /* HIDDEN LISTS */
+
+/* .menu-container {
+  width: 1324px;
+  margin: auto;
+} */
+
+@media only screen and (max-width: 1350px){ 
+  
+  /* .menu-container {
+    width: 100%;
+    padding: 20px 10px 0;
+  } */
+  
+  .header-section {
+    width: 100%;
+    left: 0;
+  }
+
+  header {
+    width: 1350px;
+  }
+
+  }
+  /* .menu-container {
+    width: 1324px;
+    margin: auto;
+  } */
+
+ 
