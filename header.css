@@ -339,7 +339,8 @@ main {
 }
 
 .header-bag-dropdown-clothes-box {
-  display: flex;
+  /* display: flex; */
+  display: none;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
@@ -685,10 +686,13 @@ h3.accessories-title-ul-article-title {
     width: 1350px;
   }
 
+  
+
   }
   /* .menu-container {
     width: 1324px;
     margin: auto;
   } */
 
- 
+
+  
