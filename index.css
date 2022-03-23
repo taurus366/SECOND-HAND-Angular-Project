@@ -240,6 +240,8 @@ footer {
   justify-content: space-evenly;
   border-top: 1px solid #8080801c;
   background-color: #8080801c;
+  bottom: -136px;
+  position: relative;
 }
 
 .contact-us-section > article {
