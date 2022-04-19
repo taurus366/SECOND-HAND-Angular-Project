@@ -131,10 +131,10 @@ a.address-card-edit {
 /* ADD ADDRESS FOR USER AND SPEEDY OFFICE ARE TOGETHER */
 .own-new-address-title-icon,
 .office-new-address-title-icon {
-    font-size: 17px;
-    left: 94%;
-    position: absolute;
-    top: 15px;
+  font-size: 17px;
+  left: 94%;
+  position: absolute;
+  top: 15px;
 }
 
 .own-new-address-title-icon:hover,
@@ -153,7 +153,6 @@ a.address-card-edit {
 .office-new-address-title {
   background-color: #e1e1e1;
   position: relative;
-  
 }
 .own-new-address-title > p,
 .office-new-address-title > p {
@@ -255,21 +254,20 @@ a.address-card-edit {
 
 .own-new-address-address-text-btn-article,
 .office-new-address-address-text-btn-article {
-    width: 100%;
+  width: 100%;
 }
 
 .own-new-address-address-text-btn-article > p,
 .office-new-address-address-text-btn-article > p {
-    padding-left: 10px;
-    color: #646464;
+  padding-left: 10px;
+  color: #646464;
 }
 
 .own-new-address-save-btn,
 .office-new-address-save-btn {
-    float: right;
-    margin-right: 10px;
+  float: right;
+  margin-right: 10px;
 }
-
 
 /* ADD TOO PUBLIC */
 
@@ -287,5 +285,47 @@ input[type="number"] {
 
 /* ADD TOO PUBLIC */
 
+/* OWN NEW ADDRESS CITY HINT */
+.address-city-hint {
+  position: absolute;
+  border: 1px solid black;
+  top: 238px;
+  width: 93.5%;
+  left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(245, 245, 245);
+}
 
+.address-city-hint-no-found {
+  font-size: 1.1rem;
+  margin: 5px 0px 5px 5px;
+}
 
+.address-city-hint-found-article {
+  max-height: 200px;
+  overflow: auto;
+  font-size: 1.2rem;
+}
+
+.address-city-hint-found > thead > tr > th,
+.address-city-hint-found > tbody > tr > td {
+  padding-left: 50px;
+  padding-bottom: 5px;
+  width: 10%;
+  text-align: center;
+}
+
+.address-city-hint-found {
+  text-align: center;
+}
+
+.address-city-hint-found > tbody > tr > td {
+  font-weight: bolder;
+}
+
+.address-city-hint-found > tbody > tr:hover {
+  /* background-color: red; */
+  color: #ccab72;
+  cursor: pointer;
+}
